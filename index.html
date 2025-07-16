@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="upper">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>bookmark</title><path d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" /></svg>
+                    <h2>Pulp</h2>
+                </div>
+                <div class="menus">
+                    <div class="menu">
+                        <div class="item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>home</title><path d="M16,8.41L11.5,3.91L4.41,11H6V12L6,19H9V13H14V19H17V11H18.59L17,9.41V6H16V8.41M2,12L11.5,2.5L15,6V5H18V9L21,12H18V20H13V14H10V20H5V12H2Z" /></svg>
+                            <p>Dashboard</p>
+                        </div>
+                        <div class="item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>view-module</title><path d="M15,6H20V12H15V6M9,12V6H14V12H9M15,19V13H20V19H15M9,19V13H14V19H9M3,19V13H8V19H3M3,12V6H8V12H3M4,7V11H7V7H4M10,7V11H13V7H10M16,7V11H19V7H16M4,14V18H7V14H4M10,14V18H13V14H10M16,14V18H19V14H16Z" /></svg>
+                            <p>Category</p>
+                        </div>
+                        <div class="item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>book-multiple</title><path d="M8,3H17C18.66,3 20,4.34 20,6V19C20,20.66 18.66,22 17,22H8C6.34,22 5,20.66 5,19V6C5,4.34 6.34,3 8,3M8,4C6.9,4 6,4.9 6,6V19C6,20.1 6.9,21 8,21H17C18.1,21 19,20.1 19,19V6C19,4.9 18.1,4 17,4H14V10.7L11,8.6L8,10.7V4M13,4H9V8.78L11,7.38L13,8.78V4M8,24C5.24,24 3,21.76 3,19V7H4V19C4,21.21 5.79,23 8,23H16V24H8Z" /></svg>
+                            <p>My Library</p>
+                        </div>
+                        <div class="item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>download</title><path d="M12,4V16.25L17.25,11L18,11.66L11.5,18.16L5,11.66L5.75,11L11,16.25V4H12M3,19H4V21H19V19H20V22H3V19Z" /></svg>
+                            <p>Download</p>
+                        </div>
+                        <div class="item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>heart</title><path d="M4.24,12.25C3.47,11.5 3,10.42 3,9.25C3,6.9 4.9,5 7.25,5C8.83,5 10.21,5.86 10.94,7.14H12.06C12.79,5.86 14.17,5 15.75,5C18.1,5 20,6.9 20,9.25C20,10.42 19.5,11.5 18.76,12.25L11.5,19.5L4.24,12.25M19.46,12.96C20.41,12 21,10.7 21,9.25C21,6.35 18.65,4 15.75,4C14,4 12.45,4.85 11.5,6.17C10.55,4.85 9,4 7.25,4C4.35,4 2,6.35 2,9.25C2,10.7 2.59,12 3.54,12.96L11.5,20.92L19.46,12.96Z" /></svg>
+                            <p>Favorite</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="menu">
+                        <div class="item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>settings</title><path d="M19.59,15.5L17.77,14.2C18.07,13.12 18.09,11.95 17.77,10.78L19.59,9.5L18.14,7L16.11,7.92C15.32,7.12 14.32,6.5 13.15,6.21L12.95,4H10.05L9.85,6.21C8.68,6.5 7.68,7.12 6.89,7.92L4.86,7L3.41,9.5L5.23,10.78C4.91,11.95 4.93,13.12 5.23,14.2L3.41,15.5L4.86,18L6.89,17.07C7.68,17.86 8.68,18.46 9.85,18.77L10.05,21H12.95L13.15,18.77C14.32,18.46 15.32,17.86 16.11,17.07L18.14,18L19.59,15.5M13.5,3C13.77,3 14,3.2 14,3.46L14.18,5.5C14.94,5.78 15.62,6.19 16.23,6.68L18.08,5.81C18.31,5.69 18.6,5.77 18.74,6L20.74,9.5C20.88,9.71 20.8,10 20.58,10.15L18.91,11.32C19.04,12.12 19.03,12.91 18.91,13.68L20.58,14.85C20.8,15 20.88,15.29 20.74,15.5L18.74,19C18.6,19.21 18.31,19.29 18.08,19.17L16.23,18.31C15.62,18.8 14.94,19.2 14.18,19.5L14,21.5C14,21.79 13.77,22 13.5,22H9.5C9.22,22 9,21.78 9,21.5L8.82,19.5C8.06,19.2 7.38,18.8 6.77,18.31L4.92,19.17C4.69,19.29 4.4,19.21 4.26,19L2.26,15.5C2.12,15.29 2.2,15 2.42,14.85L4.09,13.68C3.97,12.91 3.96,12.12 4.09,11.32L2.42,10.15C2.2,10 2.12,9.71 2.26,9.5L4.26,6C4.4,5.77 4.69,5.69 4.92,5.81L6.77,6.68C7.38,6.19 8.06,5.78 8.82,5.5L9,3.46C9,3.2 9.23,3 9.5,3H13.5M11.5,9C13.43,9 15,10.57 15,12.5C15,14.43 13.43,16 11.5,16C9.57,16 8,14.43 8,12.5C8,10.57 9.57,9 11.5,9M11.5,10C10.12,10 9,11.12 9,12.5C9,13.88 10.12,15 11.5,15C12.88,15 14,13.88 14,12.5C14,11.12 12.88,10 11.5,10Z" /></svg>
+                            <p>Setting</p>
+                        </div>
+                        <div class="item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>help-circle</title><path d="M11.5,4C6.81,4 3,7.81 3,12.5C3,17.19 6.81,21 11.5,21C16.19,21 20,17.19 20,12.5C20,7.81 16.19,4 11.5,4M11.5,3C16.75,3 21,7.25 21,12.5C21,17.75 16.75,22 11.5,22C6.25,22 2,17.75 2,12.5C2,7.25 6.25,3 11.5,3M11,17H12V19H11V17M11.5,6C13.43,6 15,7.57 15,9.5C15,10.4 14.3,11 13.56,11.68L12.63,12.58C12.04,13.25 11.97,14.53 12,14.97V15H11C11,14.95 10.9,13.04 11.87,11.92L12.9,10.93C13.5,10.4 14,9.95 14,9.5C14,8.12 12.88,7 11.5,7C10.12,7 9,8.12 9,9.5H8C8,7.57 9.57,6 11.5,6Z" /></svg>
+                            <p>Help</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="item profile">
+                    <div class="left">
+                        <img src="media/spongebob.jpeg" alt="profile picture">
+                        <div class="text">
+                            <p>User</p>
+                            <p>user@email.com</p>
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>menu</title><path d="M3,8V7H20V8H3M20,12V13H3V12H20M3,17H20V18H3V17Z" /></svg>
+                </div>
+                <div class="item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>logout</title><path d="M5,3H11C12.66,3 14,4.34 14,6V10H13V6C13,4.9 12.1,4 11,4H5C3.9,4 3,4.9 3,6V19C3,20.1 3.9,21 5,21H11C12.1,21 13,20.1 13,19V15H14V19C14,20.66 12.66,22 11,22H5C3.34,22 2,20.66 2,19V6C2,4.34 3.34,3 5,3M8,12H19.25L16,8.75L16.66,8L21.16,12.5L16.66,17L16,16.25L19.25,13H8V12Z" /></svg>
+                    <p>Log Out</p>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="search">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>magnify</title><path d="M9.5,4C13.09,4 16,6.91 16,10.5C16,12.12 15.41,13.6 14.43,14.73L20.08,20.38L19.37,21.09L13.72,15.44C12.59,16.41 11.11,17 9.5,17C5.91,17 3,14.09 3,10.5C3,6.91 5.91,4 9.5,4M9.5,5C6.46,5 4,7.46 4,10.5C4,13.54 6.46,16 9.5,16C12.54,16 15,13.54 15,10.5C15,7.46 12.54,5 9.5,5Z" /></svg>
+                <input type="text" placeholder="Search book name or author...">
+            </div>
+            <div class="body">
+                <div class="welcome-card">
+                    <div class="left">
+                        <h2 class="child" >Hello, User</h2>
+                        <p class="child">Selection of the best books, 
+                            just for you
+                        </p>
+                        <button class="child">Show Latest</button>
+                    </div>
+                    <img src="media/library.jpg" alt="library picture">
+                </div>
+                <div class="books">
+                    <h2>Your Library</h2>
+                    <div class="book-grid">
+                        <!-- <div class="book-card">
+                            <div class="content">
+                                <h2>Title</h2>
+                                <div class="middle">
+                                    <p>Author</p>
+                                    <p>Date</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <div class="read">
+                                    <label for="read-checkbox">Read</label>
+                                    <input type="checkbox" id="read-checkbox">
+                                </div>
+                                <button id="delete-btn">Delete</button>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="toolbar">
+                <div class="buttons">
+                    <button id="clear-btn">Clear Library</button>
+                    <button id="add-btn">Add book</button>
+                </div>
+                <dialog>
+                    <form action="dialog">
+                        <p>
+                            <input id="title-field" type="text" name="title" placeholder="Title" required>
+                        </p>
+                        <p>
+                            <input id="author-field" type="text" name="author" placeholder="Author" required>
+                        </p>
+                        <p>
+                            <input id="date-field" type="text" name="date" placeholder="date" required>
+                        </p>
+                        <div class="buttons">
+                            <button id="submit-btn" type="submit">submit</button>
+                            <button id="close-btn" type="button">close</button>
+                        </div>
+                    </form>
+                </dialog>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
